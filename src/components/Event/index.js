@@ -1,12 +1,16 @@
 import React from "react";
 
+import img1 from "images/event/1.jpg";
+import img2 from "images/event/2.jpg";
+import img3 from "images/event/3.jpg";
+
 const Event = () => {
 	return (
 		<div id="event" className="service-area service-area2 ptb--100">
 			<div className="container">
 				<div className="col-l2">
 					<div className="section-title text-center">
-						<h2>When & Where</h2>
+						<h2>Quando e Dove</h2>
 					</div>
 				</div>
 				<div className="service-area-menu">
@@ -14,24 +18,20 @@ const Event = () => {
 						<div className="row">
 							<div className="col-lg-5">
 								<div className="ceromony-img">
-									<img src="img/service/1.jpg" alt="" />
+									<img src={img1} alt="" />
 								</div>
 							</div>
 							<div className="col-lg-7">
 								<div className="ceromony-content">
-									<h3>Wedding Ceremony</h3>
-									<span>Sunday, 25 July 18, 9.00 AM-5.00 PM</span>
-									<span>256 Apay Road,Califonia Bong, London</span>
+									<h3>Cerimonia</h3>
+									<span>Domenica 29 Giugno, 15:00</span>
+									<span>Chiesa di San Giorgio, Abbiategrasso (MI)</span>
 									<p>
-										It is a long established fact that a reader will be distracted by the readable
-										content of a page when looking at its layout. The point of using Lorem Ipsum is
-										that it has a more-or-less normal{" "}
+										Si diranno il fatidico “sì” nella suggestiva Chiesa di San Giorgio ad
+										Abbiategrasso, un luogo che custodisce la storia e l’atmosfera raccolta che
+										desiderano. Sarà l’inizio di un giorno che non vedono l’ora di condividere con
+										voi.
 									</p>
-									<a
-										className="popup-gmaps"
-										href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25211.21212385712!2d144.95275648773628!3d-37.82748510398018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0x5045675218ce7e0!2zTWVsYm91cm5lIFZJQyAzMDA0LCDgpoXgprjgp43gpp_gp43gprDgp4fgprLgpr_gpq_gprzgpr4!5e0!3m2!1sbn!2sbd!4v1503742051881">
-										See Location
-									</a>
 								</div>
 							</div>
 						</div>
@@ -41,24 +41,19 @@ const Event = () => {
 					<div className="row">
 						<div className="col-lg-7">
 							<div className="ceromony-content ceromony-content2">
-								<h3>Wedding Party</h3>
-								<span>Sunday, 25 July 18, 9.00 AM-5.00 PM</span>
-								<span>256 Apay Road,Califonia Bong, London</span>
+								<h3>Ricevimento</h3>
+								<span>Domenica 29 Giugno, 18:00</span>
+								<span>Cascina La Fienagione</span>
 								<p>
-									It is a long established fact that a reader will be distracted by the readable
-									content of a page when looking at its layout. The point of using Lorem Ipsum is
-									that it has a more-or-less normal{" "}
+									Dopo la cerimonia verrete accolti a Cascina La Fienagione, immersa nella
+									campagna milanese. Aperitivo al tramonto, cena con sapori locali e una cornice
+									country chic fatta di luci, fiori e sorrisi.
 								</p>
-								<a
-									className="popup-gmaps"
-									href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25211.21212385712!2d144.95275648773628!3d-37.82748510398018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0x5045675218ce7e0!2zTWVsYm91cm5lIFZJQyAzMDA0LCDgpoXgprjgp43gpp_gp43gprDgp4fgprLgpr_gpq_gprzgpr4!5e0!3m2!1sbn!2sbd!4v1503742051881">
-									See Location
-								</a>
 							</div>
 						</div>
 						<div className="col-lg-5">
 							<div className="ceromony-img">
-								<img src="img/service/2.jpg" alt="" />
+								<img src={img2} alt="" />
 							</div>
 						</div>
 					</div>
@@ -67,24 +62,19 @@ const Event = () => {
 					<div className="row">
 						<div className="col-lg-5">
 							<div className="ceromony-img">
-								<img src="img/service/3.jpg" alt="" />
+								<img src={img3} alt="" />
 							</div>
 						</div>
 						<div className="col-lg-7">
 							<div className="ceromony-content">
-								<h3>Reception Party</h3>
-								<span>Sunday, 25 July 18, 9.00 AM-5.00 PM</span>
-								<span>256 Apay Road,Califonia Bong, London</span>
+								<h3>Party</h3>
+								<span>Domenica 29 Giugno, 23:00</span>
+								<span>Cascina La Fienagione</span>
 								<p>
-									It is a long established fact that a reader will be distracted by the readable
-									content of a page when looking at its layout. The point of using Lorem Ipsum is
-									that it has a more-or-less normal{" "}
+									E quando il cielo si illuminerà di stelle, verranno aperte le danze tra musica
+									live, open bar e tanta voglia di festeggiare. Un momento di pura gioia, fino a
+									notte fonda, per chiudere in bellezza il giorno speciale di Marco e Giulia.
 								</p>
-								<a
-									className="popup-gmaps"
-									href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25211.21212385712!2d144.95275648773628!3d-37.82748510398018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0x5045675218ce7e0!2zTWVsYm91cm5lIFZJQyAzMDA0LCDgpoXgprjgp43gpp_gp43gprDgp4fgprLgpr_gpq_gprzgpr4!5e0!3m2!1sbn!2sbd!4v1503742051881">
-									See Location
-								</a>
 							</div>
 						</div>
 					</div>

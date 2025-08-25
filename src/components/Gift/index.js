@@ -2,23 +2,26 @@ import React from "react";
 
 const Gift = () => {
 	return (
-		<div className="Gift-area pt--100 pb--30">
+		<div className="Gift-area pt--80 pb--60">
 			<div className="container">
 				<div className="col-12">
 					<div className="section-title text-center">
-						<h2>Gift Registration</h2>
+						<h2>Un Regalo Speciale</h2>
 						<p>
-							There are many variations of passages of Lorem Ipsum available, but the majority
-							have suffered alteration in some form, by injected humour, or randomised.
+							Abbiamo scelto di partire per il Giappone, il viaggio dei nostri sogni, e
+							sarebbe meraviglioso condividere questa esperienza con voi anche prima della
+							partenza!
+							<br />
+							<br />
+							Se desiderate contribuire, potete farlo tramite bonifico.
+							<br />
+							<br />
+							<b>Intestatario</b>: Giulia Ferraro & Marco Santini
+							<br />
+							<b>IBAN</b>: IT60 X054 2811 1010 0000 0123 456
+							<br />
+							<b>Causale</b>: Contributo Viaggio di Nozze – Giulia & Marco
 						</p>
-					</div>
-				</div>
-				<div className="gift-item">
-					<div className="Gift-carousel owl-carousel">
-						<img src="img/gift/3.png" alt="clinet" />
-						<img src="img/gift/2.png" alt="clinet" />
-						<img src="img/gift/3.png" alt="clinet" />
-						<img src="img/gift/4.png" alt="clinet" />
 					</div>
 				</div>
 			</div>

@@ -322,9 +322,7 @@ mobile menu
     margin: 0;
 }
 
-.slicknav_nav {
-    background: #2a2d2d;
-}
+.slicknav_nav {}
 
 .slicknav_nav .slicknav_row:hover {
     border-radius: 0;
@@ -593,7 +591,7 @@ couple-area
     font-size: 50px;
     font-family: 'Great Vibes', cursive;
     margin-bottom: 50px;
-    color: #649e93;
+    color: #C08081;
 }
 
 .section-title h2:before {
@@ -619,7 +617,7 @@ couple-area
 }
 
 .couple-item {
-    padding-top: 50px;
+    padding-top: 30px;
 }
 
 .couple-img {
@@ -709,7 +707,7 @@ couple-area end
  count-down
 =============================*/
 .count-down-area {
-    padding-top: 100px;
+    padding-top: 60px;
 }
 
 .clock-area {
@@ -786,7 +784,7 @@ couple-area end
 }
 
 .count-down-section #clock>div {
-    width: 18%;
+    width: 23%;
     float: left;
     text-align: center;
     border: 1px solid rgba(255, 255, 255, 0.2);
@@ -858,7 +856,6 @@ couple-area end
     height: 100%;
 }
 
-
 .count-down-clock .box .date {
     font-family: 'Great Vibes', cursive;
     font-weight: 400;
@@ -880,7 +877,6 @@ couple-area end
     background: rgba(192 128 129 / 70%);
     z-index: -1;
 }
-
 
 .section-area h2 {
     font-size: 45px;
@@ -945,7 +941,7 @@ Story-Area
     left: 50%;
     height: 97%;
     width: 4px;
-    background: #E8EFED;
+    background: #c080811f;
 }
 
 .story-area.story-style-2 .story .content-wrapper::before {
@@ -987,7 +983,7 @@ Story-Area
 }
 
 .story .item .story-content:hover {
-    background: #f2f9f7;
+    background: #f9e9ea;
 }
 
 .story-area.story-style-2 .story .item .story-content:hover {
@@ -1127,10 +1123,10 @@ Story-Area
     font-size: 18px;
     line-height: 60px;
     border-radius: 50%;
-    background: #E8EFED;
+    background: #f0c1c1;
     content: "\f108";
     font-family: "Flaticon";
-    border: 5px solid #d9ece7;
+    border: 5px solid #c080811f;
 }
 
 .story-area.story-style-2 .story .story-icon {
@@ -1144,16 +1140,16 @@ Story-Area
     font-size: 18px;
     line-height: 60px;
     border-radius: 50%;
-    background: #9a8c4061;
+    background: #C08081;
     content: "\f108";
     font-family: "Flaticon";
-    border: 5px solid #9a8c403b;
+    border: 5px solid #C08081;
 }
 
 .story-icon span:before {
     font-size: 30px;
     line-height: 30px;
-    color: #C08081;
+    color: #fff;
 }
 
 .story-area.story-style-2 .story-icon span:before {
@@ -1192,9 +1188,9 @@ welcome-area
 =================================*/
 
 .welcome-area {
-    background: linear-gradient(rgba(0, 0, 0, 0.81), rgba(100, 158, 147, 0.81)), transparent url(../img/1.jpg) no-repeat center center / cover fixed;
-    padding-top: 85px;
-    padding-bottom: 95px;
+    background: linear-gradient(rgba(0, 0, 0, 0.81), rgba(192, 128, 129, 0.81)), transparent url(../img/1.jpg) no-repeat center center / cover fixed;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .welcome-area:before {
@@ -1230,7 +1226,7 @@ welcome-area
 .btn a {
     display: inline-block;
     background: #fff;
-    color: #649e93;
+    color: #C08081;
     padding: 10px 38px;
     font-size: 18px;
     transition: all .3s;
@@ -1239,7 +1235,7 @@ welcome-area
 }
 
 .btn a:hover {
-    background: #3f7267;
+    background: #C08081;
     color: #fff;
 }
 
@@ -1286,11 +1282,10 @@ service-area
 
 .Ceremony-wrap {
     margin-top: 30px;
-    background: #f5fbfb;
 }
 
 .service-area2 .Ceremony-wrap {
-    background: #f5fbfb;
+    background: #fff4f5;
 }
 
 .ceromony-content {
@@ -1303,12 +1298,12 @@ service-area
 
 .ceromony-content h3 {
     font-size: 30px;
-    color: #649e93;
+    color: #C08081;
     margin-bottom: 16px;
 }
 
 .ceromony-content a {
-    color: #649e93;
+    color: #C08081;
     font-weight: 600;
 }
 
@@ -1415,7 +1410,7 @@ person-area
 
 .person-content h3 {
     font-size: 24px;
-    color: #649e93;
+    color: #C08081;
 }
 
 .person-content span {
@@ -1423,7 +1418,7 @@ person-area
 }
 
 .person-title {
-    border-bottom: 2px solid #649e93;
+    border-bottom: 2px solid #C08081;
     margin-bottom: 30px;
 }
 
@@ -1445,14 +1440,14 @@ gallery-area
 .gallery-menu button {
     font-size: 17px;
     font-weight: 500;
-    color: #649e93;
+    color: #C08081;
     letter-spacing: 0;
     background: transparent;
     outline: none;
     cursor: pointer;
     position: relative;
     margin-right: 10px;
-    border: 2px solid #c8dad7;
+    border: none;
     padding: 5px 15px;
     border-radius: 50px;
 }
@@ -1462,7 +1457,7 @@ gallery-area
 }
 
 .gallery-menu button.active {
-    background: #4e7b72;
+    background: #C08081;
     color: #fff;
 }
 
@@ -1495,7 +1490,7 @@ guest-area
 ===============================*/
 
 .guest-area {
-    background: linear-gradient(rgba(100, 158, 147, 0.50), rgba(100, 158, 147, 0.50)), transparent url(../img/guest/1.jpg) center center/cover no-repeat fixed;
+    background: linear-gradient(rgba(192, 128, 129, .9), rgba(192, 128, 129, 0.53)), transparent url(../img/guest/1.jpg) center center / cover no-repeat fixed;
     padding: 100px 0;
     position: relative;
     background-attachment: fixed;
@@ -1569,7 +1564,7 @@ select.form-control:not([size]):not([multiple]) {
     background: none;
     border: none;
     padding: 5px 15px 8px;
-    background: #649e93;
+    background: #C08081;
     color: #fff;
     border-radius: 5px;
     margin-top: 20px;
@@ -1581,7 +1576,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .contact-form button:hover {
-    background: #3f7267;
+    background: #835152;
 }
 
 ::-webkit-input-placeholder {
@@ -1657,7 +1652,7 @@ footer-area
 
 .content-sub {
     padding: 50px 80px;
-    background: rgba(94, 154, 142, .5);
+    background: rgba(192, 128, 129, 0.5);
     display: inline-block;
     z-index: 99;
     position: relative;
@@ -1805,11 +1800,9 @@ home-page2
     background: #f9f9f9;
 }
 
-
 .person-btn ul {
     justify-content: center;
     margin-bottom: 30px;
-    border-bottom: 1px solid #8ec7bc5e;
 }
 
 .person-btn ul li a {
@@ -1826,9 +1819,9 @@ home-page2
     border-right: none;
 }
 
-.person-btn li a.active,
-.person-btn li a:hover {
-    background: #4e7b72;
+.person-btn ul li.active a,
+.person-btn ul li a:hover {
+    background: #674444 !important;
     color: #fff;
 }
 
@@ -2424,4 +2417,8 @@ h4.comment-title {
     top: -50px;
     visibility: visible;
     opacity: 1;
+}
+
+.slicknav_nav ul {
+    margin: 0;
 }

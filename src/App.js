@@ -7,6 +7,7 @@ import WelcomeArea from "./components/WelcomeArea";
 import Story from "components/Story";
 import People from "components/People";
 import Event from "components/Event";
+import Gallery from "components/Gallery";
 import Contact from "components/Contact";
 import Gift from "components/Gift";
 import Footer from "components/Footer";
@@ -31,6 +32,8 @@ const App = () => {
 			<People />
 
 			<Event />
+
+			<Gallery />
 
 			<Contact />
 

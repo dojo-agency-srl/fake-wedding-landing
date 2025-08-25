@@ -1,5 +1,7 @@
 import React from "react";
 
+import img1 from "images/slider/1.jpg";
+
 const Contact = () => {
 	return (
 		<div id="Contact" className="guest-area">
@@ -9,8 +11,8 @@ const Contact = () => {
 						<div className="guest-wrap">
 							<div className="col-12">
 								<div className="section-title section-title4 text-center">
-									<h2>Be Our Guest</h2>
-									<p>Please reserve before December 15th, 2018.</p>
+									<h2>Sii Nostro Ospite</h2>
+									<p>Si prega di rispondere prima del 1 Gennaio 2025</p>
 								</div>
 							</div>
 							<div className="contact-form form-style">
@@ -21,41 +23,43 @@ const Contact = () => {
 									method="post">
 									<div className="row">
 										<div className="col-12 col-sm-6">
-											<input type="text" placeholder="Your Name*" id="fname" name="name" />
+											<input type="text" placeholder="Nome*" id="fname" name="name" />
 										</div>
 										<div className="col-12  col-sm-6">
-											<input type="text" placeholder="Your Email*" id="email" name="email" />
+											<input type="text" placeholder="Email*" id="email" name="email" />
 										</div>
 										<div className="col col-sm-6">
 											<select className="form-control" name="guest">
 												<option disabled selected>
-													Number Of Guest*
+													Numero di partecipanti*
 												</option>
 												<option>1</option>
 												<option>2</option>
 												<option>3</option>
 												<option>4</option>
+												<option>5</option>
+												<option>6</option>
 											</select>
 										</div>
 										<div className="col col-sm-6">
 											<select className="form-control" name="events">
 												<option disabled selected>
-													I Am Attending*
+													Parteciperò a*
 												</option>
-												<option>Al events</option>
-												<option>Wedding ceremony</option>
-												<option>Reception party</option>
+												<option>Tutti gli eventi</option>
+												<option>Cerimonia</option>
+												<option>Ricevimento e Party</option>
 											</select>
 										</div>
 										<div className="col-12">
 											<textarea
 												className="contact-textarea"
-												placeholder="Message"
+												placeholder="Messaggio"
 												name="notes"></textarea>
 										</div>
 										<div className="col-12 text-center">
-											<button id="submit" className="submit">
-												Send Invitation
+											<button id="submit" className="submit" disabled>
+												Invia il messaggio
 											</button>
 											<span id="loader">
 												<i className="fa fa-refresh fa-spin fa-3x fa-fw"></i>

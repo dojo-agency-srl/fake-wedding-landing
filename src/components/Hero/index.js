@@ -58,7 +58,7 @@ const Hero = () => {
 								<div className="col-lg-12">
 									<span>CI SPOSIAMO</span>
 									<h4>Save The Date</h4>
-									<p>25 Giugno 2025</p>
+									<p>29 Giugno 2025</p>
 								</div>
 							</div>
 						</div>
@@ -82,7 +82,7 @@ const Hero = () => {
 								<div className="col-lg-12">
 									<span>CI SPOSIAMO</span>
 									<h4>Save The Date</h4>
-									<p>25 Giugno 2025</p>
+									<p>29 Giugno 2025</p>
 								</div>
 							</div>
 						</div>

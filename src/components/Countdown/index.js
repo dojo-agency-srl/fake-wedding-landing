@@ -34,9 +34,6 @@ const Countdown = () => {
 										<div class="box">
 											<div class="date">0</div> <span>minuti</span>{" "}
 										</div>
-										<div class="box">
-											<div class="date">0</div> <span>secondi</span>{" "}
-										</div>
 									</div>
 								</div>
 							</div>

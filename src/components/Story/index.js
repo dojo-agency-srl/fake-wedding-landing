@@ -1,12 +1,17 @@
 import React from "react";
 
+import img1 from "images/story/1.jpg";
+import img2 from "images/story/2.jpg";
+import img3 from "images/story/3.jpg";
+import img4 from "images/story/4.jpg";
+
 const Story = () => {
 	return (
 		<div id="story" className="story-area ptb--100">
 			<div className="container">
 				<div className="col-l2">
 					<div className="section-title text-center">
-						<h2>Our Story</h2>
+						<h2>La Storia</h2>
 					</div>
 				</div>
 				<div className="row">
@@ -22,21 +27,16 @@ const Story = () => {
 										<div className="image-wrap">
 											<div className="single-image">
 												<div>
-													<img src="img/story/1.jpg" alt="" />
+													<img src={img1} alt="" />
 												</div>
 											</div>
 										</div>
-										<h2>First time we met</h2>
-										<span className="date">July 20, 2017</span>
+										<h2>Il Primo Incontro</h2>
+										<span className="date">30 Luglio 2021</span>
 										<p>
-											There are many variations of passages of Lorem Ipsum available, but the majority
-											have suffered alteration in some,
+											Un aperitivo tra amici a Milano. Una chiacchiera sulle mete di viaggio si è
+											trasformata in ore di risate, e da lì qualcosa ha cominciato a muoversi.
 										</p>
-										<div className="story-button">
-											<a className="theme-btn" href="#" target="_blank" title="READ MORE">
-												READ MORE
-											</a>
-										</div>
 									</div>
 								</div>
 								<div className="item">
@@ -47,21 +47,16 @@ const Story = () => {
 										<div className="image-wrap">
 											<div className="single-image">
 												<div>
-													<img src="img/story/2.jpg" alt="" />
+													<img src={img2} alt="" />
 												</div>
 											</div>
 										</div>
-										<h2>Our First Date</h2>
-										<span className="date">Dec 25, 2017</span>
+										<h2>Il Primo Appuntamento</h2>
+										<span className="date">14 Settembre 2021</span>
 										<p>
-											There are many variations of passages of Lorem Ipsum available, but the majority
-											have suffered alteration in some,
+											Un giro al parco Sempione e una cena improvvisata in trattoria: niente di
+											pianificato, ma proprio per questo perfetto.
 										</p>
-										<div className="story-button">
-											<a className="theme-btn" href="#" target="_blank" title="READ MORE">
-												READ MORE
-											</a>
-										</div>
 									</div>
 								</div>
 								<div className="item">
@@ -72,21 +67,17 @@ const Story = () => {
 										<div className="image-wrap">
 											<div className="single-image">
 												<div>
-													<img src="img/story/3.jpg" alt="" />
+													<img src={img3} alt="" />
 												</div>
 											</div>
 										</div>
-										<h2>Our Marriage Proposal</h2>
-										<span className="date">Jan 10, 2018</span>
+										<h2>La Proposta</h2>
+										<span className="date">11 Giugno 2023</span>
 										<p>
-											There are many variations of passages of Lorem Ipsum available, but the majority
-											have suffered alteration in some,
+											Marco ha scelto la Turchia e la Cappadocia, un luogo romantico e caro ad
+											entrambi. Al tramonto, su una mongolfiera, ha tirato fuori l’anello. Lei ha
+											detto subito sì.
 										</p>
-										<div className="story-button">
-											<a className="theme-btn" href="#" target="_blank" title="READ MORE">
-												READ MORE
-											</a>
-										</div>
 									</div>
 								</div>
 								<div className="item">
@@ -97,21 +88,16 @@ const Story = () => {
 										<div className="image-wrap">
 											<div className="single-image">
 												<div>
-													<img src="img/story/1.jpg" alt="" />
+													<img src={img4} alt="" />
 												</div>
 											</div>
 										</div>
-										<h2>Our Engagement</h2>
-										<span className="date">Jan 22, 2018</span>
+										<h2>Il Fidanzamento</h2>
+										<span className="date">22 Giugno 2023</span>
 										<p>
-											There are many variations of passages of Lorem Ipsum available, but the majority
-											have suffered alteration in some,
+											Un anno fatto di progetti, di piccole tradizioni quotidiane e di quella dolce
+											attesa che ora li porta fino all’altare.
 										</p>
-										<div className="story-button">
-											<a className="theme-btn" href="#" target="_blank" title="READ MORE">
-												READ MORE
-											</a>
-										</div>
 									</div>
 								</div>
 							</div>
